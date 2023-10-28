@@ -68,7 +68,7 @@ inquirer
             case 'Square': newLogo = new Square(); break;
             default: break;
         }
-        newLogo.setText(logo.toUpperCase());
+        newLogo.setText(logo);
         newLogo.setBackgroundColor(backgroundcolor.toLowerCase());
         newLogo.setTextColor(textcolor.toLowerCase());
         return writeFile(
